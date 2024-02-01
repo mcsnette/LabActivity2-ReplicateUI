@@ -34,7 +34,7 @@ function Navbar() {
               <p>Services</p>
             </li>
           </div>
-          <div>
+          <div className="nav-right">
             <li>
               <p>Shop in PH</p>
             </li>

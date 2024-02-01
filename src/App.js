@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
 import Navbar from "./Navbar";
 import Header from "./Header";
@@ -13,8 +14,6 @@ function App() {
       <Navbar />
       <Header />
       <Glasses />
-      <Popup />
-      <Details />
       <Footer />
     </div>
   );
