@@ -1,3 +1,7 @@
+/* body {
+  background-color: #232b2b;
+} */
+
 .navbar {
   overflow: hidden;
   position: fixed;
@@ -102,7 +106,6 @@
 
 .glasses-front p {
   font-weight: bold;
-  color: #343434;
 }
 
 #sunglasses {
@@ -184,4 +187,41 @@
 
 #head-f {
   font-weight: bold;
+}
+
+.btn-style {
+  padding: 15px;
+  border-radius: 2rem;
+  margin-top: 8px;
+}
+
+/**THEMES STYLE**/
+
+.App.summer {
+  background-image: url("C:\Users\Asus\Documents\react\web-ui\public\images\summer-bg.jpg");
+  background-size: cover;
+}
+
+.App.winter {
+  background-image: url("C:\Users\Asus\Documents\react\web-ui\public\images\winter-bg.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+.navbar.summer {
+  background-color: #d75341;
+  color: #fff;
+}
+
+.navbar.winter {
+  background-color: #227d9f;
+  color: #fff;
+}
+
+.header.summer {
+  color: #000;
+}
+
+.header.winter {
+  color: #000;
 }

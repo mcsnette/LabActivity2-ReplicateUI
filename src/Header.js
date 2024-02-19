@@ -39,9 +39,9 @@ const glassData = [
   },
 ];
 
-function Header() {
+function Header({ toggleTheme, theme }) {
   return (
-    <div className="header">
+    <div className={`header ${theme}`}>
       {glassData.map((glass) => (
         <HeaderData glassObj={glass} />
       ))}

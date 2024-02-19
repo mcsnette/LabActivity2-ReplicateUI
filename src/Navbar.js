@@ -1,6 +1,6 @@
-function Navbar() {
+function Navbar({ toggleTheme, theme }) {
   return (
-    <div className="navbar">
+    <div className={`navbar ${theme}`}>
       <nav>
         <ul>
           {/* <li>
@@ -36,10 +36,9 @@ function Navbar() {
           </div>
           <div className="nav-right">
             <li>
-              <p>Shop in PH</p>
-            </li>
-            <li>
-              <p>Login</p>
+              <button className="btn-style" onClick={toggleTheme}>
+                {theme === "summer" ? "Summer" : "Winter"}
+              </button>
             </li>
           </div>
         </ul>
