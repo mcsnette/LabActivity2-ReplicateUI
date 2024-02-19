@@ -198,13 +198,11 @@
 /**THEMES STYLE**/
 
 .App.summer {
-  background-image: url("C:\Users\Asus\Documents\react\web-ui\public\images\summer-bg.jpg");
-  background-size: cover;
+  background-color: #fac898;
 }
 
 .App.winter {
-  background-image: url("C:\Users\Asus\Documents\react\web-ui\public\images\winter-bg.jpg");
-  background-size: cover;
+  background-color: #59bce1;
   color: #fff;
 }
 
